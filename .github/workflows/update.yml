@@ -2,7 +2,7 @@ name: Check Bottles updates
 on:
   schedule:
     - cron: '0 * * * *'
-  workflow_dispatch: {}
+  workflow_dispatch:
   push:
     branches:    
       - main
